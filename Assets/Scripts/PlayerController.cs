@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour {
 			}
 
             if (Boost()) {
-                rb2d.AddForce(new Vector2(100, 30));
+                rb2d.AddForce(new Vector2(200, 30));
 				anim.SetTrigger("Boost");
             }
 		}
