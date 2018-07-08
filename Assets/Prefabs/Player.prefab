@@ -71,7 +71,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1473839425161972}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 44b149c74c342479bbeac13e4ad59257, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -114,6 +114,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upForce: 200
+  baseMaxVelocity: 5
+  slowDownFriction: 2
+  speedChangeIncrement: 1
 --- !u!212 &212455799016457260
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212410444391763338}
   - component: {fileID: 50210545330985666}
   - component: {fileID: 61696887729881796}
+  - component: {fileID: 114556730395695392}
   m_Layer: 0
   m_Name: Slide
   m_TagString: Untagged
@@ -70,7 +71,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1116480396925164}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: a4c0156b23fdc46a481bc04fc982f3e1, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -87,6 +88,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.78520495, y: 10.24}
   m_EdgeRadius: 0
+--- !u!114 &114556730395695392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1116480396925164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7cf27260e46947ffbeacdf2a799cdbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212410444391763338
 SpriteRenderer:
   m_ObjectHideFlags: 1

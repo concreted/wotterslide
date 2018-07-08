@@ -38,7 +38,7 @@ public class CameraController : MonoBehaviour
 
 	private float getCameraSize() {
 		var playerVel = Math.Abs(playerRb2d.velocity.x);
-		var percentVel = playerVel / 5f;
-		return 4 + 6 * percentVel;
+		var percentVel = playerVel / 20f;
+		return 5 + 7 * percentVel;
 	}
 }
