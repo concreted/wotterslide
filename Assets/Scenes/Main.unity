@@ -250,6 +250,16 @@ Prefab:
       propertyPath: speedChangeIncrement
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 60136527148978600, guid: 2b1c093add6fe469e8ffd40bd860063f,
+        type: 2}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].x
+      value: -0.5465164
+      objectReference: {fileID: 0}
+    - target: {fileID: 60136527148978600, guid: 2b1c093add6fe469e8ffd40bd860063f,
+        type: 2}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].y
+      value: 0.25086975
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b1c093add6fe469e8ffd40bd860063f, type: 2}
   m_IsPrefabParent: 0
