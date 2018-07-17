@@ -108,8 +108,8 @@ public class PlayerController : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D col) {
 	
 		if (col.gameObject.tag == "Waterfall") {
-			Debug.Log("object collision: " + col.gameObject.tag, col.gameObject);
-			rb2d.velocity = new Vector2(3f, -2f);
+			Debug.Log("object collision enter: " + col.gameObject.tag, col.gameObject);
+			rb2d.velocity = new Vector2(6f, -2f);
 			onWaterfall = true;
 		}
 		canJump = true;
@@ -119,21 +119,22 @@ public class PlayerController : MonoBehaviour {
 		// BirdDied();
 	}
 
-	void OnCollisionStay2D(Collision2D col) {
+	// Never seems to be in the stay state
+	// void OnCollisionStay2D(Collision2D col) {
 	
-		if (col.gameObject.tag == "Waterfall") {
-			Debug.Log("object collision: " + col.gameObject.tag, col.gameObject);
-			rb2d.velocity = new Vector2(6f, -2f);
-			onWaterfall = true;
-		}
-		canJump = true;
-	}
+	// 	if (col.gameObject.tag == "Waterfall") {
+	// 		Debug.Log("object collision stay: " + col.gameObject.tag, col.gameObject);
+	// 		rb2d.velocity = new Vector2(6f, -2f);
+	// 		onWaterfall = true;
+	// 	}
+	// 	canJump = true;
+	// }
 
 	void OnCollisionExit2D(Collision2D col) {
 	
 		if (col.gameObject.tag == "Waterfall") {
 			Debug.Log("object exiting collision: " + col.gameObject.tag, col.gameObject);
-			rb2d.velocity = new Vector2(0.5f, -2f);
+			rb2d.velocity = new Vector2(0.0f, -2f);
 			onWaterfall = true;
 		}
 	}
