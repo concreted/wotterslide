@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
 
 	private bool isDead = false;
 	private bool canJump = false;
+	private bool onWaterfall = false;
 
 	private Rigidbody2D rb2d;
 	private PolygonCollider2D pc2d;
@@ -72,10 +73,13 @@ public class PlayerController : MonoBehaviour {
 		var newVel = rb2d.velocity.x;
 		if (rb2d.velocity.x > maxVelocity) {
 			newVel = maxVelocity;
-        } else if (rb2d.velocity.x < minVelocity) {
+        } else if (rb2d.velocity.x < minVelocity && !onWaterfall) {
             newVel = minVelocity;
         }
 		rb2d.velocity = new Vector2(newVel, rb2d.velocity.y);
+
+		// Testing no collision on going up 
+		Physics2D.IgnoreLayerCollision (0, 0, rb2d.velocity.y > 0);
 
 		if (SlowDown()) {
 			anim.SetTrigger("Slowdown");
@@ -101,11 +105,36 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter2D() {
+	void OnCollisionEnter2D(Collision2D col) {
+	
+		if (col.gameObject.tag == "Waterfall") {
+			Debug.Log("object collision: " + col.gameObject.tag, col.gameObject);
+			rb2d.velocity = new Vector2(3f, -2f);
+			onWaterfall = true;
+		}
 		canJump = true;
 		// rb2d.velocity = Vector2.zero;
 		// isDead = true;
 		// anim.SetTrigger("Die");
 		// BirdDied();
+	}
+
+	void OnCollisionStay2D(Collision2D col) {
+	
+		if (col.gameObject.tag == "Waterfall") {
+			Debug.Log("object collision: " + col.gameObject.tag, col.gameObject);
+			rb2d.velocity = new Vector2(6f, -2f);
+			onWaterfall = true;
+		}
+		canJump = true;
+	}
+
+	void OnCollisionExit2D(Collision2D col) {
+	
+		if (col.gameObject.tag == "Waterfall") {
+			Debug.Log("object exiting collision: " + col.gameObject.tag, col.gameObject);
+			rb2d.velocity = new Vector2(0.5f, -2f);
+			onWaterfall = true;
+		}
 	}
 }
