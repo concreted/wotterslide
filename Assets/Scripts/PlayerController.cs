@@ -71,7 +71,10 @@ public class PlayerController : MonoBehaviour {
 
 		// Cap x velocity
 		var newVel = rb2d.velocity.x;
-		if (rb2d.velocity.x > maxVelocity) {
+		if (onWaterfall) {
+			newVel = 0;
+		}
+		else if (rb2d.velocity.x > maxVelocity) {
 			newVel = maxVelocity;
         } else if (rb2d.velocity.x < minVelocity && !onWaterfall) {
             newVel = minVelocity;
@@ -93,8 +96,12 @@ public class PlayerController : MonoBehaviour {
 
 		if (isDead == false) {
 			if (Jump()) {
-				rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-				rb2d.AddForce(new Vector2(0, upForce));
+				if (!onWaterfall){
+					rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+				} else {
+					onWaterfall = false;
+				}
+				rb2d.AddForce(new Vector2(10, upForce));
 				anim.SetTrigger("Jump");
 			}
 
@@ -107,11 +114,12 @@ public class PlayerController : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col) {
 	
-		if (col.gameObject.tag == "Waterfall") {
-			Debug.Log("object collision enter: " + col.gameObject.tag, col.gameObject);
-			rb2d.velocity = new Vector2(6f, -2f);
-			onWaterfall = true;
-		}
+		// if (col.gameObject.tag == "Waterfall") {
+		// 	// Debug.Log("object collision enter: " + col.gameObject.tag, col.gameObject);
+		// 	// rb2d.velocity = new Vector2(0.0f, 0f);
+		// 	// //rb2d.AddForce(new Vector2(20f, 0));
+		// 	onWaterfall = true;
+		// }
 		canJump = true;
 		// rb2d.velocity = Vector2.zero;
 		// isDead = true;
@@ -134,7 +142,6 @@ public class PlayerController : MonoBehaviour {
 	
 		if (col.gameObject.tag == "Waterfall") {
 			Debug.Log("object exiting collision: " + col.gameObject.tag, col.gameObject);
-			rb2d.velocity = new Vector2(0.0f, -2f);
 			onWaterfall = true;
 		}
 	}

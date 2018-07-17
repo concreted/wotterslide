@@ -990,6 +990,16 @@ Prefab:
       propertyPath: m_TagString
       value: Waterfall
       objectReference: {fileID: 0}
+    - target: {fileID: 61696887729881796, guid: 91fdba111464f415dbe5e44bdd9ae962,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.0180052
+      objectReference: {fileID: 0}
+    - target: {fileID: 61696887729881796, guid: 91fdba111464f415dbe5e44bdd9ae962,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91fdba111464f415dbe5e44bdd9ae962, type: 2}
   m_IsPrefabParent: 0
