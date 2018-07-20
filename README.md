@@ -1,6 +1,4 @@
-# flappystyle
+# wotterslide
+otters sliding down slides
 
-flappy bird unity demo from https://unity3d.com/learn/tutorials/s/2d-game-creation
-
-Play: https://concreted.itch.io/flappystyle
-
+![alt text](https://i.imgur.com/EO1YVa4.jpg)
