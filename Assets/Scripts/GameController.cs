@@ -15,6 +15,8 @@ public class GameController : MonoBehaviour {
 	public int speedUpScore = 2;
 
 	public float boostTime = 0f;
+
+	public float boostTimeLimit = 0.3f;
 	public Text scoreText;
 	public GameObject gameOverText;
 	public bool gameOver = false;
@@ -40,7 +42,7 @@ public class GameController : MonoBehaviour {
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 
-		scrollSpeed = baseScrollSpeed  - (30 * (boostTime / 2));
+		scrollSpeed = baseScrollSpeed  - (45 * (boostTime / boostTimeLimit));
 		boostTime = Math.Max(boostTime - Time.deltaTime, 0);
 	}
 

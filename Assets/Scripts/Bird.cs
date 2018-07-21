@@ -39,7 +39,7 @@ public class Bird : MonoBehaviour {
 			// Boosting
 			if (GameController.instance.GetBoost()) {
                 // rb2d.AddForce(new Vector2(upForce * 2, 0));
-				GameController.instance.boostTime = 1;
+				GameController.instance.boostTime = GameController.instance.boostTimeLimit;
 			}
 		}
 	}
