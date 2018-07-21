@@ -10,7 +10,7 @@ public class RepeatingBackground : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		groundCollider = GetComponent<BoxCollider2D>();
-		groundHorizontalLength = groundCollider.size.x;
+		groundHorizontalLength = groundCollider.size.x * 2;
 	}
 
 	// Update is called once per frame
