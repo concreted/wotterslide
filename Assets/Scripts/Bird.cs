@@ -23,11 +23,11 @@ public class Bird : MonoBehaviour {
 		if (isDead == false) {
 			rb2d.velocity = new Vector2(0, rb2d.velocity.y);
 			if (GameController.instance.GetInput() && jumpCounter < 2) {
-				// Testing no collision on going up 
+				// Testing no collision on going up
 				rb2d.velocity = new Vector2(0, 0);
 				rb2d.AddForce(new Vector2(0, upForce));
 				anim.SetTrigger("Flap");
-				incrementJumpCounter();				
+				incrementJumpCounter();
 			}
 			if (rb2d.velocity.y > 0) {
 				rb2d.gameObject.layer = 9;
@@ -35,6 +35,12 @@ public class Bird : MonoBehaviour {
 				rb2d.gameObject.layer = 8;
 			}
 			Debug.Log("Layer: " + rb2d.gameObject.layer, rb2d.gameObject);
+
+			// Boosting
+			if (GameController.instance.GetBoost()) {
+                // rb2d.AddForce(new Vector2(upForce * 2, 0));
+				GameController.instance.boostTime = 1;
+			}
 		}
 	}
 
