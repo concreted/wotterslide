@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,8 +9,14 @@ public class GameController : MonoBehaviour {
 
 	public static GameController instance;
 	public float scrollSpeed = -1.5f;
+
+	private float baseScrollSpeed;
 	public float speedUpRate = 0.5f;
 	public int speedUpScore = 2;
+
+	public float boostTime = 0f;
+
+	public float boostTimeLimit = 0.3f;
 	public Text scoreText;
 	public GameObject gameOverText;
 	public bool gameOver = false;
@@ -26,6 +33,7 @@ public class GameController : MonoBehaviour {
 		} else if (instance != this) {
 			Destroy(gameObject);
 		}
+		baseScrollSpeed = scrollSpeed;
 	}
 
 	// Update is called once per frame
@@ -33,6 +41,9 @@ public class GameController : MonoBehaviour {
 		if (gameOver && GetInput()) {
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
+
+		scrollSpeed = baseScrollSpeed  - (45 * (boostTime / boostTimeLimit));
+		boostTime = Math.Max(boostTime - Time.deltaTime, 0);
 	}
 
 	public void BirdScored() {
@@ -62,4 +73,9 @@ public class GameController : MonoBehaviour {
 	public bool GetInput() {
 		return (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space));
 	}
+
+    public bool GetBoost()
+    {
+        return (Input.GetKeyDown(KeyCode.RightArrow));
+    }
 }
