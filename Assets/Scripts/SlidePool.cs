@@ -6,10 +6,12 @@ public class SlidePool : MonoBehaviour {
 
 	// private GameObject[] slides;
 	private GameObject[][] levelSections;
+	private GameObject[] enemies;
 	public int slidePoolSize = 6;
 
 	public int levelSectionBufferSize = 3;
 	public GameObject slidePrefab;
+	public GameObject enemyPrefab;
 	public float spawnRate = 2f;
 	public float ySlideMin = -5f;
 	public float ySlideMax = 5f;
@@ -29,8 +31,10 @@ public class SlidePool : MonoBehaviour {
 		// Instantiate the level sections.
 		for (int i = 0; i < levelSectionBufferSize; i++) {
 			var slides = new GameObject[slidePoolSize];
+			enemies = new GameObject[slidePoolSize];
 			for (int j = 0; j < slidePoolSize; j++) {
 				slides[j] = (GameObject) Instantiate(slidePrefab, objectPoolPosition, spawnRotation);
+				enemies[j] = (GameObject) Instantiate(enemyPrefab, objectPoolPosition, Quaternion.identity);
 			}
 			levelSections[i] = slides;
 		}
@@ -48,9 +52,15 @@ public class SlidePool : MonoBehaviour {
 		// move it offscreen
 		var xOffset = 16f + Random.Range(-4f, 4f);
 		var yOffset = Random.Range(-4f, 4f);
+		var enemyYOffset = yOffset + 0.7f;
 
 		for (int i = 0; i < slidePoolSize; i++) {
 			var position = positions[i];
+			var enemyXOffset = xOffset + Random.Range(-5f,5f);
+			var shouldSpawn = Random.Range(-1,1);
+			if (shouldSpawn >= 0){
+				enemies[i].transform.position = new Vector2(position.x + enemyXOffset, position.y + enemyYOffset);
+			}
 			levelSection[i].transform.position = new Vector2(position.x + xOffset, position.y + yOffset);
 		}
 	}
