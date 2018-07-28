@@ -80,6 +80,9 @@ public class SlidePool : MonoBehaviour {
 				var shouldSpawn = Random.Range(-1,1);
 				if (shouldSpawn >= 0){
 					enemies[i].transform.position = new Vector2(position.x + enemyXOffset, position.y + enemyYOffset);
+					// enable sprite for enemy
+					var esr = enemies[i].GetComponent<SpriteRenderer>();
+					esr.enabled = true;
 				}
 			}
 		}
