@@ -7,12 +7,13 @@ public class SlidePool : MonoBehaviour {
 
 	// private GameObject[] slides;
 	private GameObject[][] levelSections;
-	private GameObject[] enemies;
+	private GameObject[][] enemiesSections;
 
 	private GameObject checkpoint;
-	public int slidePoolSize = 6;
+	private int slidePoolSize = 6;
+	private int enemyPoolSize = 6;
 
-	public int levelSectionBufferSize = 3;
+	private int levelSectionBufferSize = 3;
 	public GameObject slidePrefab;
 	public GameObject enemyPrefab;
 
@@ -40,20 +41,22 @@ public class SlidePool : MonoBehaviour {
 
 		timeSinceLastSpawned = spawnRate;
 		levelSections = new GameObject[levelSectionBufferSize][];
+		enemiesSections = new GameObject[levelSectionBufferSize][];
 		checkpoint = (GameObject) Instantiate(checkpointPrefab, objectPoolPosition, Quaternion.identity);
 		// Instantiate the level sections.
 		for (int i = 0; i < levelSectionBufferSize; i++) {
 			var slides = new GameObject[slidePoolSize];
-			enemies = new GameObject[slidePoolSize];
+			var enemies = new GameObject[slidePoolSize];
 			for (int j = 0; j < slidePoolSize; j++) {
 				slides[j] = (GameObject) Instantiate(slidePrefab, objectPoolPosition, spawnRotation);
 				enemies[j] = (GameObject) Instantiate(enemyPrefab, objectPoolPosition, Quaternion.identity);
 			}
 			levelSections[i] = slides;
+			enemiesSections[i] = enemies;
 		}
 	}
 
-	void FormatLevelSection(GameObject[] levelSection) {
+	void FormatLevelSection(GameObject[] levelSection, GameObject[] enemies) {
 		var positions = new Vector2[]{
 			new Vector2(3f, -1f),
             new Vector2(10f, -7f),
@@ -63,22 +66,26 @@ public class SlidePool : MonoBehaviour {
             new Vector2(21f, -1f),
 		};
 		// move it offscreen
-		var xOffset = 16f + Random.Range(-4f, 4f);
+		var xOffset = 24f + Random.Range(-4f, 4f);
 		var yOffset = Random.Range(-4f, 4f);
 		var enemyYOffset = yOffset + 0.7f;
 
 		for (int i = 0; i < slidePoolSize; i++) {
 			var position = positions[i];
 			var enemyXOffset = xOffset + Random.Range(-5f,5f);
-			var shouldSpawn = Random.Range(-1,1);
-			if (shouldSpawn >= 0){
-				enemies[i].transform.position = new Vector2(position.x + enemyXOffset, position.y + enemyYOffset);
+
+			var shouldSpawnSlide = Random.Range(-1,2);
+			if (shouldSpawnSlide >= 0) {
+				levelSection[i].transform.position = new Vector2(position.x + xOffset, position.y + yOffset);
+				var shouldSpawn = Random.Range(-1,1);
+				if (shouldSpawn >= 0){
+					enemies[i].transform.position = new Vector2(position.x + enemyXOffset, position.y + enemyYOffset);
+				}
 			}
-			levelSection[i].transform.position = new Vector2(position.x + xOffset, position.y + yOffset);
 		}
 
 		// place the checkpoint
-		checkpoint.transform.position = new Vector2(18f, 0);
+		checkpoint.transform.position = new Vector2(24f, 0);
 	}
 
 	// Update is called once per frame
@@ -93,7 +100,7 @@ public class SlidePool : MonoBehaviour {
 
 	public void PlaceNextLevelSection() {
 		Debug.Log(levelSections[currentLevelSection].Length);
-        FormatLevelSection(levelSections[currentLevelSection]);
+        FormatLevelSection(levelSections[currentLevelSection], enemiesSections[currentLevelSection]);
 
         // float spawnYPos = Random.Range(ySlideMin, ySlideMax);
         // float spawnXPos = Random.Range(xSlideMin, xSlideMax);
