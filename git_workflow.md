@@ -1,5 +1,6 @@
 # Git Workflow
 
+## What is Git?
 **Git** is a **version control** system that lets many people work on the same project without interfering with others' work, and preserves history in case you want to undo a change.
 
 Normally when you save work in Photoshop or Word, you are overwriting the only copy of that file. When using Git, instead you:
@@ -12,6 +13,13 @@ Normally when you save work in Photoshop or Word, you are overwriting the only c
 The power of Git is that you're no longer working off of a single file or project - you're working off of **versions** of that project. No matter what changes you make, you can always roll back to an old version saved in Git.
 
 When you have a change you're happy with, you submit a request to add it to the **master** branch. This is called "making a pull request".
+
+### What's the different between Git and Github?
+Git is a program that runs on your computer, or "locally". When you use Git commands like `git commit` or `git add`, these are affecting files on your computer only.
+
+Github is a cloud service that lets you save your local Git changes to the cloud. This lets many people collaborate on the same project, syncing their changes to the cloud, instead of having to share a computer or pass around USB drives.
+
+When you run a command like `git pull` or `git push`, it is interacting with Github to get/save changes to the cloud.
 
 ## Starting new work (i.e. working from a new branch)
 1. Open Terminal
@@ -33,6 +41,8 @@ When you have a change you're happy with, you submit a request to add it to the 
     - Replace `<commit_description>` with a description of what your change is.
     - Example: `git commit -m "Add more enemies"`
     - This **commits** your change to Git and includes the description, so people know what your change does.
+1. `git push origin HEAD`
+    - This sends your change to Github, so it is saved in the cloud.
 
 ## Making a Pull Request
 
