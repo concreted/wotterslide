@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Slide
   - Enemy
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

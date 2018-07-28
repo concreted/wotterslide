@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SlidePool : MonoBehaviour {
+	public static SlidePool instance;
 
 	// private GameObject[] slides;
 	private GameObject[][] levelSections;
 	private GameObject[] enemies;
+
+	private GameObject checkpoint;
 	public int slidePoolSize = 6;
 
 	public int levelSectionBufferSize = 3;
 	public GameObject slidePrefab;
 	public GameObject enemyPrefab;
+
+	public GameObject checkpointPrefab;
 	public float spawnRate = 2f;
 	public float ySlideMin = -5f;
 	public float ySlideMax = 5f;
@@ -25,9 +30,17 @@ public class SlidePool : MonoBehaviour {
 	private float timeSinceLastSpawned;
 
 	//Use this for initialization
-	void Start () {
+	void Awake () {
+		// Singleton pattern
+		if (instance == null) {
+			instance = this;
+		} else if (instance != this) {
+			Destroy(gameObject);
+		}
+
 		timeSinceLastSpawned = spawnRate;
 		levelSections = new GameObject[levelSectionBufferSize][];
+		checkpoint = (GameObject) Instantiate(checkpointPrefab, objectPoolPosition, Quaternion.identity);
 		// Instantiate the level sections.
 		for (int i = 0; i < levelSectionBufferSize; i++) {
 			var slides = new GameObject[slidePoolSize];
@@ -63,24 +76,28 @@ public class SlidePool : MonoBehaviour {
 			}
 			levelSection[i].transform.position = new Vector2(position.x + xOffset, position.y + yOffset);
 		}
+
+		// place the checkpoint
+		checkpoint.transform.position = new Vector2(18f, 0);
 	}
 
 	// Update is called once per frame
 	void Update () {
 		timeSinceLastSpawned += Time.deltaTime;
+		// if (GameController.instance.gameOver == false && timeSinceLastSpawned >= spawnRate) {
+		// 	timeSinceLastSpawned = 0;
 
 
-		if (GameController.instance.gameOver == false && timeSinceLastSpawned >= spawnRate) {
-			timeSinceLastSpawned = 0;
-
-            Debug.Log(levelSections[currentLevelSection].Length);
-			FormatLevelSection(levelSections[currentLevelSection]);
-
-			// float spawnYPos = Random.Range(ySlideMin, ySlideMax);
-			// float spawnXPos = Random.Range(xSlideMin, xSlideMax);
-			// slides[currentSlide].transform.position = new Vector2(spawnXPos, spawnYPos);
-			currentLevelSection = (currentLevelSection + 1) % levelSectionBufferSize;
-
-		}
+		// }
 	}
+
+	public void PlaceNextLevelSection() {
+		Debug.Log(levelSections[currentLevelSection].Length);
+        FormatLevelSection(levelSections[currentLevelSection]);
+
+        // float spawnYPos = Random.Range(ySlideMin, ySlideMax);
+        // float spawnXPos = Random.Range(xSlideMin, xSlideMax);
+        // slides[currentSlide].transform.position = new Vector2(spawnXPos, spawnYPos);
+        currentLevelSection = (currentLevelSection + 1) % levelSectionBufferSize;
+    }
 }
