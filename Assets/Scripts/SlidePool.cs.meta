@@ -3,7 +3,11 @@ guid: 58b4fbc099b4441f7b9445b88e6fca02
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - slidePrefab: {fileID: 1918181034964822, guid: bf556b84e85f74b0098f674abe7af624,
+      type: 2}
+  - enemyPrefab: {fileID: 1602086995278436, guid: 0dc64181fb1d04153929294d44b6451a,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
