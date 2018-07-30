@@ -42,7 +42,7 @@ public class GameController : MonoBehaviour {
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 
-		scrollSpeed = baseScrollSpeed  - (45 * (boostTime / boostTimeLimit));
+		scrollSpeed = baseScrollSpeed  - (50 * (boostTime / boostTimeLimit));
 		boostTime = Math.Max(boostTime - Time.deltaTime, 0);
 	}
 

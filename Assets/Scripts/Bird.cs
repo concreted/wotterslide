@@ -12,6 +12,8 @@ public class Bird : MonoBehaviour {
 	// private bool canJump = true;
 	private int jumpCounter = 0;
 
+	private int boostCounter = 0;
+
 	// Use this for initialization
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D>();
@@ -30,9 +32,10 @@ public class Bird : MonoBehaviour {
 				incrementJumpCounter();
 			}
 			// Boosting
-			if (GameController.instance.GetBoost()) {
+			if (GameController.instance.GetBoost() && boostCounter < 2) {
                 // rb2d.AddForce(new Vector2(upForce * 2, 0));
 				GameController.instance.boostTime = GameController.instance.boostTimeLimit;
+				incrementBoostCounter();
 			}
 
 
@@ -49,6 +52,7 @@ public class Bird : MonoBehaviour {
 		// Debug.Log("Collided with: " + col.gameObject.tag, col.gameObject);
 		if (col.gameObject.tag == "Slide") {
 			resetJumpCounter();
+			resetBoostCounter();
 		} else {
 			rb2d.velocity = Vector2.zero;
 			isDead = true;
@@ -61,8 +65,16 @@ public class Bird : MonoBehaviour {
 		jumpCounter++;
 	}
 
+	void incrementBoostCounter() {
+        boostCounter++;
+	}
+
 	void resetJumpCounter() {
 		jumpCounter = 0;
+	}
+
+	void resetBoostCounter() {
+		boostCounter = 0;
 	}
 
 	public void triggerDeathAnim(){
