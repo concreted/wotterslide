@@ -102,7 +102,7 @@ public class SlidePool : MonoBehaviour {
 	}
 
 	public void PlaceNextLevelSection() {
-		Debug.Log(levelSections[currentLevelSection].Length);
+		// Debug.Log(levelSections[currentLevelSection].Length);
         FormatLevelSection(levelSections[currentLevelSection], enemiesSections[currentLevelSection]);
 
         // float spawnYPos = Random.Range(ySlideMin, ySlideMax);
