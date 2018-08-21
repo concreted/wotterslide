@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 6abcca6e290664920a82a9b2e78c5909
+guid: 0be210211684d4b76bd082dffc9245fd
 TextureImporter:
   fileIDToRecycleName:
-    21300000: obstacleEx-1
-    21300002: obstacleWhole
-    21300004: obstacleEx-2
-    21300006: obstacleEx-3
+    21300000: OT-landing-2
+    21300002: OT-landing-3
+    21300004: OT-landing-4
+    21300006: OT-landing-1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -88,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: obstacleEx-1
+      name: OT-landing-2
       rect:
         serializedVersion: 2
-        x: 31
-        y: 851
-        width: 383
-        height: 311
+        x: 0
+        y: 424
+        width: 140
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,39 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76d356de5e69c47388ffe47b59d9d708
+      spriteID: 98cfdda378abc42088a050a99fd0ef71
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: obstacleWhole
+      name: OT-landing-3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 1225
-        width: 371
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 1, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4144251f10fc54673b6b9b932c088431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obstacleEx-2
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 1197
-        width: 416
-        height: 321
+        x: 3
+        y: 327
+        width: 137
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,19 +122,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c6a8485747ed4acaa565937a3222475
+      spriteID: 4c9e4f1fb48ba4528a5c9db06db399be
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: obstacleEx-3
+      name: OT-landing-4
       rect:
         serializedVersion: 2
-        x: 24
-        y: 1588
-        width: 485
-        height: 432
+        x: 4
+        y: 232
+        width: 133
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,7 +142,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d419b5b961f64e2795862c032746ac9
+      spriteID: f6a381eb6b06a4b58ba1359f220e9483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OT-landing-1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 133
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d88918fb3d542e1b90d1d8032306f6
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e2340660854284b0cbbd99c717f0ae1e
+    spriteID: 1a7efbcd3721d47099a645caaec2abb0
     vertices: []
     indices: 
     edges: []
