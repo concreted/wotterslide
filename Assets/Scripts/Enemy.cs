@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour {
 				anim.SetTrigger("Explode");
 				// sr.enabled = false;
 			} else {
-				bird.triggerDeathAnim();
+				bird.Kill();
 				GameController.instance.BirdDied();
 			}
 		}
