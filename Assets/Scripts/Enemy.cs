@@ -7,9 +7,17 @@ public class Enemy : MonoBehaviour {
 	private Bird bird;
 	private SpriteRenderer sr;
 
+    private Animator anim;
+
 	void Start () {
 		sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
 		sr.enabled = false;
+	}
+
+	void Reset() {
+		sr.enabled = false;
+		anim.ResetTrigger("Explode");
 	}
 
 	private void OnTriggerEnter2D(Collider2D other) {
@@ -17,7 +25,8 @@ public class Enemy : MonoBehaviour {
 		if (bird != null) {
 			if (GameController.instance.boostTime > 0) {
 				GameController.instance.BirdScored();
-				sr.enabled = false;
+				anim.SetTrigger("Explode");
+				// sr.enabled = false;
 			} else {
 				bird.triggerDeathAnim();
 				GameController.instance.BirdDied();
