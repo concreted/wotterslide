@@ -86,7 +86,7 @@ public class SlidePool : MonoBehaviour {
 					esr.enabled = true;
 					// disgusting hacks
                     var eanim = enemies[i].GetComponent<Animator>();
-					eanim.SetTrigger("Reset");
+					eanim.SetBool("Alive", true);
 				}
 			}
 		}

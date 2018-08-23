@@ -94,13 +94,9 @@ public class Bird : MonoBehaviour {
 			// }
 			resetJumpCounter();
 			resetBoostCounter();
+		} else {
+			Kill();
 		}
-		// else {
-		// 	rb2d.velocity = Vector2.zero;
-		// 	isDead = true;
-		// 	triggerDeathAnim();
-		// 	GameController.instance.BirdDied();
-		// }
 	}
 
 	void incrementJumpCounter() {
@@ -120,8 +116,10 @@ public class Bird : MonoBehaviour {
 	}
 
 	public void Kill() {
+        rb2d.velocity = Vector2.zero;
+        isDead = true;
         triggerDeathAnim();
-		isDead = true;
+        GameController.instance.BirdDied();
 	}
 	public void triggerDeathAnim(){
 		anim.SetTrigger("Die");

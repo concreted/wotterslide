@@ -26,10 +26,10 @@ public class Enemy : MonoBehaviour {
 			if (GameController.instance.boostTime > 0) {
 				GameController.instance.BirdScored();
 				anim.SetTrigger("Explode");
+                anim.SetBool("Alive", false);
 				// sr.enabled = false;
 			} else {
 				bird.Kill();
-				GameController.instance.BirdDied();
 			}
 		}
 	}
