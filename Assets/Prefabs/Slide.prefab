@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 61610055092325666}
   - component: {fileID: 50704566758793472}
   - component: {fileID: 114971339510393388}
+  - component: {fileID: 68494312421672766}
   m_Layer: 9
   m_Name: Slide
   m_TagString: Slide
@@ -36,13 +37,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1918181034964822}
-  m_LocalRotation: {x: -0, y: -0, z: -0.74430037, w: 0.66784513}
-  m_LocalPosition: {x: 4.04, y: -1.38, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.052335896, w: 0.9986295}
+  m_LocalPosition: {x: -2.59, y: 9.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -96.198006}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6}
 --- !u!50 &50704566758793472
 Rigidbody2D:
   serializedVersion: 4
@@ -75,7 +76,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3708431, y: 0}
+  m_Offset: {x: -0.16345522, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -86,8 +87,25 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06208065, y: 10.24}
+  m_Size: {x: 0.4768564, y: 10.24}
   m_EdgeRadius: 0
+--- !u!68 &68494312421672766
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1918181034964822}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.42508525, y: 5.0924406}
+  - {x: -0.40582716, y: -5.132766}
 --- !u!114 &114971339510393388
 MonoBehaviour:
   m_ObjectHideFlags: 1

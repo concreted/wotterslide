@@ -68,7 +68,7 @@ public class SlidePool : MonoBehaviour {
 		// move it offscreen
 		var xOffset = 24f + Random.Range(-4f, 4f);
 		var yOffset = Random.Range(-4f, 4f);
-		var enemyYOffset = yOffset + 0.7f;
+		var enemyYOffset = yOffset + 1.0f;
 
 		for (int i = 0; i < slidePoolSize; i++) {
 			var position = positions[i];
@@ -80,9 +80,13 @@ public class SlidePool : MonoBehaviour {
 				var shouldSpawn = Random.Range(-1,1);
 				if (shouldSpawn >= 0){
 					enemies[i].transform.position = new Vector2(position.x + enemyXOffset, position.y + enemyYOffset);
+					enemies[i].transform.rotation = Quaternion.Euler(0, 0, 15.4f);
 					// enable sprite for enemy
 					var esr = enemies[i].GetComponent<SpriteRenderer>();
 					esr.enabled = true;
+					// disgusting hacks
+                    var eanim = enemies[i].GetComponent<Animator>();
+					eanim.SetBool("Alive", true);
 				}
 			}
 		}
@@ -102,7 +106,7 @@ public class SlidePool : MonoBehaviour {
 	}
 
 	public void PlaceNextLevelSection() {
-		Debug.Log(levelSections[currentLevelSection].Length);
+		// Debug.Log(levelSections[currentLevelSection].Length);
         FormatLevelSection(levelSections[currentLevelSection], enemiesSections[currentLevelSection]);
 
         // float spawnYPos = Random.Range(ySlideMin, ySlideMax);
