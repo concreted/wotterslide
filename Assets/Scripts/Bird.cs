@@ -66,6 +66,10 @@ public class Bird : MonoBehaviour {
 			if (GameController.instance.GetBoost() && boostCounter < 2) {
                 // rb2d.AddForce(new Vector2(upForce * 2, 0));
 				GameController.instance.boostTime = GameController.instance.boostTimeLimit;
+				anim.ResetTrigger("Airborne");
+				anim.ResetTrigger("Jump");
+				anim.ResetTrigger("Land");
+				anim.SetTrigger("Boost");
 				incrementBoostCounter();
 			}
 
