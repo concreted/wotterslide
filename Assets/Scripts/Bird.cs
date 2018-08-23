@@ -61,6 +61,7 @@ public class Bird : MonoBehaviour {
                 anim.ResetTrigger("Airborne");
 				anim.SetTrigger("Jump");
 				incrementJumpCounter();
+                transform.rotation = Quaternion.Euler(0, 0, 0);
 			}
 			// Boosting
 			if (GameController.instance.GetBoost() && boostCounter < 2) {
@@ -71,6 +72,7 @@ public class Bird : MonoBehaviour {
 				anim.ResetTrigger("Land");
 				anim.SetTrigger("Boost");
 				incrementBoostCounter();
+                transform.rotation = Quaternion.Euler(0, 0, 0);
 			}
 
 
