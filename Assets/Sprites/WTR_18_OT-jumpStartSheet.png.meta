@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 6abcca6e290664920a82a9b2e78c5909
+guid: 899b193cae594410095c96e8b3ff7cd9
 TextureImporter:
   fileIDToRecycleName:
-    21300000: obstacleEx-1
-    21300002: obstacleWhole
-    21300004: obstacleEx-2
-    21300006: obstacleEx-3
+    21300000: WTR_18_OT-jumpStartSheet_1
+    21300002: WTR_18_OT-jumpStartSheet_3
+    21300004: WTR_18_OT-jumpStartSheet_2
+    21300006: WTR_18_OT-jumpStartSheet_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -88,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: obstacleEx-1
+      name: WTR_18_OT-jumpStartSheet_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 851
-        width: 383
-        height: 311
+        x: 0
+        y: 168
+        width: 88
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,39 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76d356de5e69c47388ffe47b59d9d708
+      spriteID: ab1a4adacc0e1405da5b35de4a85dea5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: obstacleWhole
+      name: WTR_18_OT-jumpStartSheet_3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 1225
-        width: 371
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 1, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4144251f10fc54673b6b9b932c088431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obstacleEx-2
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 1197
-        width: 416
-        height: 321
+        x: 98
+        y: 169
+        width: 88
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,19 +122,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c6a8485747ed4acaa565937a3222475
+      spriteID: eb8cde9825a4b482d976f141fa0ba0ff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: obstacleEx-3
+      name: WTR_18_OT-jumpStartSheet_2
       rect:
         serializedVersion: 2
-        x: 24
-        y: 1588
-        width: 485
-        height: 432
+        x: 0
+        y: 71
+        width: 88
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,7 +142,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d419b5b961f64e2795862c032746ac9
+      spriteID: 99bb81386bd79428fbe5835479340af6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_OT-jumpStartSheet_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 71
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd75ad4e0011742f1bcfe6d8b5756363
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e2340660854284b0cbbd99c717f0ae1e
+    spriteID: a7fb0ef21cfc147a7b6ec537a3d44792
     vertices: []
     indices: 
     edges: []
