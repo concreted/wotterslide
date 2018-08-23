@@ -45,12 +45,12 @@ public class Bird : MonoBehaviour {
                 }
 			}
 			if (hasObstacle) {
-				anim.ResetTrigger("Flap");
+				anim.ResetTrigger("Airborne");
 				anim.SetTrigger("Land");
 			}
 			else {
 				anim.ResetTrigger("Land");
-				anim.SetTrigger("Flap");
+				anim.SetTrigger("Airborne");
 			}
 
 			rb2d.velocity = new Vector2(0, rb2d.velocity.y);
@@ -58,7 +58,8 @@ public class Bird : MonoBehaviour {
 				// Testing no collision on going up
 				rb2d.velocity = new Vector2(0, 0);
 				rb2d.AddForce(new Vector2(0, upForce));
-				// anim.SetTrigger("Flap");
+                anim.ResetTrigger("Airborne");
+				anim.SetTrigger("Jump");
 				incrementJumpCounter();
 			}
 			// Boosting
