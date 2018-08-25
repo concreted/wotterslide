@@ -47,6 +47,8 @@ public class Bird : MonoBehaviour {
 			if (hasObstacle) {
 				anim.ResetTrigger("Airborne");
 				anim.SetTrigger("Land");
+                resetJumpCounter();
+                resetBoostCounter();
                 transform.rotation = Quaternion.Euler(0, 0, 0);
 			}
 			else {
@@ -95,8 +97,8 @@ public class Bird : MonoBehaviour {
 			// if (rb2d.velocity.y <= 0) {
 			// 	anim.SetTrigger("Land");
 			// }
-			resetJumpCounter();
-			resetBoostCounter();
+			// resetJumpCounter();
+			// resetBoostCounter();
 		} else {
 			Kill();
 		}
