@@ -47,10 +47,13 @@ public class Bird : MonoBehaviour {
 			if (hasObstacle) {
 				anim.ResetTrigger("Airborne");
 				anim.SetTrigger("Land");
+                transform.rotation = Quaternion.Euler(0, 0, 0);
 			}
 			else {
 				anim.ResetTrigger("Land");
 				anim.SetTrigger("Airborne");
+				// comment this out to get tumbling jumps
+                transform.rotation = Quaternion.Euler(0, 0, 0);
 			}
 
 			rb2d.velocity = new Vector2(0, rb2d.velocity.y);
