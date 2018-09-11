@@ -26,7 +26,7 @@ public class SlidePool : MonoBehaviour {
 
 	private Vector2 objectPoolPosition = new Vector2(-15f, -25f);
 	private int currentLevelSection = 0;
-	private Quaternion spawnRotation = Quaternion.Euler(0,0,270);
+	private Quaternion spawnRotation = Quaternion.Euler(0,0,13.5f);
 
 	private float timeSinceLastSpawned;
 
