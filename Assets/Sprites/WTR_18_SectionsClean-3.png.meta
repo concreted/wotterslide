@@ -1,49 +1,44 @@
 fileFormatVersion: 2
-guid: 988dcb4c18f854458bf6acaf659561a6
+guid: 73a4c7b1c27ed444ea0a6b31228b722b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: WTR_18_SectionClean_0
-    21300002: WTR_18_SectionClean_1
-    21300004: WTR_18_SectionClean_2
-    21300006: WTR_18_SectionClean_3
-    21300008: WTR_18_SectionClean_4
-    21300010: WTR_18_SectionClean_5
-    21300012: WTR_18_SectionClean_6
-    21300014: WTR_18_SectionClean_7
-    21300016: WTR_18_SectionClean_8
-    21300018: WTR_18_SectionClean_9
-    21300020: WTR_18_SectionClean_10
-    21300022: WTR_18_SectionClean_11
-    21300024: WTR_18_SectionClean_12
-    21300026: WTR_18_SectionClean_13
-    21300028: WTR_18_SectionClean_14
-    21300030: WTR_18_SectionClean_15
-    21300032: WTR_18_SectionClean_16
-    21300034: WTR_18_SectionClean_17
-    21300036: WTR_18_SectionClean_18
-    21300038: WTR_18_SectionClean_19
-    21300040: WTR_18_SectionClean_20
-    21300042: WTR_18_SectionClean_21
-    21300044: WTR_18_SectionClean_22
-    21300046: WTR_18_SectionClean_23
-    21300048: WTR_18_SectionClean_24
-    21300050: WTR_18_SectionClean_25
-    21300052: WTR_18_SectionClean_26
-    21300054: WTR_18_SectionClean_27
-    21300056: WTR_18_SectionClean_28
-    21300058: WTR_18_SectionClean_29
-    21300060: WTR_18_SectionClean_30
-    21300062: WTR_18_SectionClean_31
-    21300064: WTR_18_SectionClean_32
-    21300066: WTR_18_SectionClean_33
-    21300068: WTR_18_SectionClean_34
-    21300070: WTR_18_SectionClean_35
-    21300072: WTR_18_SectionClean_36
-    21300074: WTR_18_SectionClean_37
-    21300076: WTR_18_SectionClean_38
-    21300078: WTR_18_SectionClean_39
-    21300080: WTR_18_SectionClean_40
-    21300082: WTR_18_SectionClean_41
+    21300000: WTR_18_SectionsClean-3_0
+    21300002: WTR_18_SectionsClean-3_1
+    21300004: WTR_18_SectionsClean-3_2
+    21300006: WTR_18_SectionsClean-3_3
+    21300008: WTR_18_SectionsClean-3_4
+    21300010: WTR_18_SectionsClean-3_5
+    21300012: WTR_18_SectionsClean-3_6
+    21300014: WTR_18_SectionsClean-3_7
+    21300016: WTR_18_SectionsClean-3_8
+    21300018: WTR_18_SectionsClean-3_9
+    21300020: WTR_18_SectionsClean-3_10
+    21300022: WTR_18_SectionsClean-3_11
+    21300024: WTR_18_SectionsClean-3_12
+    21300026: WTR_18_SectionsClean-3_13
+    21300028: WTR_18_SectionsClean-3_14
+    21300030: WTR_18_SectionsClean-3_15
+    21300032: WTR_18_SectionsClean-3_16
+    21300034: WTR_18_SectionsClean-3_17
+    21300036: WTR_18_SectionsClean-3_18
+    21300038: WTR_18_SectionsClean-3_19
+    21300040: WTR_18_SectionsClean-3_20
+    21300042: WTR_18_SectionsClean-3_21
+    21300044: WTR_18_SectionsClean-3_22
+    21300046: WTR_18_SectionsClean-3_23
+    21300048: WTR_18_SectionsClean-3_24
+    21300050: WTR_18_SectionsClean-3_25
+    21300052: WTR_18_SectionsClean-3_26
+    21300054: WTR_18_SectionsClean-3_27
+    21300056: WTR_18_SectionsClean-3_28
+    21300058: WTR_18_SectionsClean-3_29
+    21300060: WTR_18_SectionsClean-3_30
+    21300062: WTR_18_SectionsClean-3_31
+    21300064: WTR_18_SectionsClean-3_32
+    21300066: WTR_18_SectionsClean-3_33
+    21300068: WTR_18_SectionsClean-3_34
+    21300070: WTR_18_SectionsClean-3_35
+    21300072: WTR_18_SectionsClean-3_36
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -126,841 +121,741 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WTR_18_SectionClean_0
+      name: WTR_18_SectionsClean-3_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 0
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78761e242d69f49369a132d919f9f6ef
+      spriteID: 674c403d45c3b4632a0e9094e7986042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_1
+      name: WTR_18_SectionsClean-3_1
       rect:
         serializedVersion: 2
-        x: 194
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 203
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 260c1c8a707cb45138e98d50c2c3c9c1
+      spriteID: 7ce93fb7fa949499aad6d55be79eb808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_2
+      name: WTR_18_SectionsClean-3_2
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 406
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9becbc66778eb467bbcd42e3d867228b
+      spriteID: 9278b45d64f3748f5befa36e5d792c42
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_3
+      name: WTR_18_SectionsClean-3_3
       rect:
         serializedVersion: 2
-        x: 580
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 609
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 197aa01e39b9b4ced8a6012bf4c58b6e
+      spriteID: a5b13fc5430ea4dec80c876fc33731c5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_4
+      name: WTR_18_SectionsClean-3_4
       rect:
         serializedVersion: 2
-        x: 773
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 812
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d04d3f120f6f0494b9e8cbfba9ef9190
+      spriteID: 965d2466bb8e1499ca828ef25ee44746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_5
+      name: WTR_18_SectionsClean-3_5
       rect:
         serializedVersion: 2
-        x: 966
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1015
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 475618bf1a4b74bcc8612b44a47189c3
+      spriteID: 0f58c93c67d574b5db580ff07b746e77
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_6
+      name: WTR_18_SectionsClean-3_6
       rect:
         serializedVersion: 2
-        x: 1156
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1218
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cca76f8d537904f21a3db0d441d7572d
+      spriteID: 5504e861e63ee43f9b20ab4a6c6d8965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_7
+      name: WTR_18_SectionsClean-3_7
       rect:
         serializedVersion: 2
-        x: 1352
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1421
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2518eb9b1f6145b0b2bff6d389318c0
+      spriteID: 17dc60447c012420ca7d03f3a9eba4e9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_8
+      name: WTR_18_SectionsClean-3_8
       rect:
         serializedVersion: 2
-        x: 1545
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1624
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5727c29f052b741289eecc96e49449b8
+      spriteID: 5e068c991824846d28376775364f4914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_9
+      name: WTR_18_SectionsClean-3_9
       rect:
         serializedVersion: 2
-        x: 1738
-        y: 1614
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1827
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ea7207af6281423abc940f66fe54847
+      spriteID: 49fa0174569414263b10d32af0e05f77
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_10
+      name: WTR_18_SectionsClean-3_10
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 0
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78810d6f626f345748d0fb05f8ddfd9a
+      spriteID: 571bcf8dd3b55478b928dd2685f7b6ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_11
+      name: WTR_18_SectionsClean-3_11
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 203
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d77c262459349458aa1e70f1994cd2d4
+      spriteID: 7c75fb50604e84314a01c03753fab680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_12
+      name: WTR_18_SectionsClean-3_12
       rect:
         serializedVersion: 2
-        x: 387
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 406
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b7808da583864caeabe3c6b7143bf6d
+      spriteID: 0bcd5a9b65d574bd5b99045ff8a3ca05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_13
+      name: WTR_18_SectionsClean-3_13
       rect:
         serializedVersion: 2
-        x: 580
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 609
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e2e3150bb44948e79027d7066e5fb38
+      spriteID: 1363db1ed28b949c0aba6c7964633095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_14
+      name: WTR_18_SectionsClean-3_14
       rect:
         serializedVersion: 2
-        x: 773
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 812
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3c21a67a947945368d10941725a2d07
+      spriteID: 60b93090d6b4e4187871812285eff0db
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_15
+      name: WTR_18_SectionsClean-3_15
       rect:
         serializedVersion: 2
-        x: 964
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1015
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d4ac9ff55dae4697aba9e3f1665872e
+      spriteID: b1383fbf9c84244baba1c52d143a9494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_16
+      name: WTR_18_SectionsClean-3_16
       rect:
         serializedVersion: 2
-        x: 1159
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1218
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b13cf1d3e284a82910b8b4e022b832
+      spriteID: 58a1147e12d774ce39e5b5df1890b0a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_17
+      name: WTR_18_SectionsClean-3_17
       rect:
         serializedVersion: 2
-        x: 1352
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1421
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6d79e816c7a24c8390fb8537535b3a1
+      spriteID: f6ecbe12dcd00477d8638bde09a55c9d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_18
+      name: WTR_18_SectionsClean-3_18
       rect:
         serializedVersion: 2
-        x: 1545
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1624
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e189c3d021a1243b99ee9f8956885d8e
+      spriteID: 1ffa5a68a1594410d88347ce8d4e5c41
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_19
+      name: WTR_18_SectionsClean-3_19
       rect:
         serializedVersion: 2
-        x: 1736
-        y: 1148
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1827
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff6c65b43a3ab42beb1f122e4986875a
+      spriteID: a59cbdb8f51dc4005b36adff4651e8c5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_20
+      name: WTR_18_SectionsClean-3_20
       rect:
         serializedVersion: 2
-        x: 1
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 0
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 322f8664ab18049759a343aee996f7c4
+      spriteID: c44bbefec752f4effb2dc997ea5e0ceb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_21
+      name: WTR_18_SectionsClean-3_21
       rect:
         serializedVersion: 2
-        x: 194
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 203
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45ffff8f8c0a045d4aff4062f8aeb20c
+      spriteID: 86eba83fe27e548e3ace26b551844f7c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_22
+      name: WTR_18_SectionsClean-3_22
       rect:
         serializedVersion: 2
-        x: 387
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 406
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dc65e62e9d4a40728e43d0a26b9f3f0
+      spriteID: 0a19d527573294936a86e0896a0fe675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_23
+      name: WTR_18_SectionsClean-3_23
       rect:
         serializedVersion: 2
-        x: 580
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 609
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 377e7c7ab7c574ec6882d30e93346bea
+      spriteID: 89cb86439f664490b81199e7793ba87f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_24
+      name: WTR_18_SectionsClean-3_24
       rect:
         serializedVersion: 2
-        x: 773
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 812
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9281237f34c54d7f8be8c448d15e843
+      spriteID: fd37bc3827f8e4e4abadb1d2f2828b74
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_25
+      name: WTR_18_SectionsClean-3_25
       rect:
         serializedVersion: 2
-        x: 966
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1015
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb1bec1a4d8314dec80370f851e9c7a6
+      spriteID: d807d66c23dd149d78ba6d4a34f98484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_26
+      name: WTR_18_SectionsClean-3_26
       rect:
         serializedVersion: 2
-        x: 1159
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1218
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49744e6970c5647aeb59ac8be9f4e14b
+      spriteID: fa791df9cea664ff790302c319120fe0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_27
+      name: WTR_18_SectionsClean-3_27
       rect:
         serializedVersion: 2
-        x: 1352
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1421
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4cee2d854a5b41bba1ab35aef482fbd
+      spriteID: 7fbc1b67ada424812bb0cc90ad6cdeca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_28
+      name: WTR_18_SectionsClean-3_28
       rect:
         serializedVersion: 2
-        x: 1545
-        y: 684
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1624
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbf881ffae8874b428830d4acefda039
+      spriteID: eeb1d33fd9d6a4d43ae729e4d8eaad37
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_29
+      name: WTR_18_SectionsClean-3_29
       rect:
         serializedVersion: 2
-        x: 1741
-        y: 692
-        width: 134
-        height: 421
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb278c534d1cd4fddbcbe9c9289d0abd
+      spriteID: 59bc1b4b4e5dd4f3e8a5189d3cc15427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_30
+      name: WTR_18_SectionsClean-3_30
       rect:
         serializedVersion: 2
-        x: 1909
-        y: 695
-        width: 135
-        height: 421
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 203
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bd57b22809274f9c9355c0eece7a791
+      spriteID: bb3b9114c5fb54ffea8b5dd02dd42a66
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_31
+      name: WTR_18_SectionsClean-3_31
       rect:
         serializedVersion: 2
-        x: 1
-        y: 219
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 406
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bb43f3b994bc417f9cad3a01dda3e8a
+      spriteID: ead1acc6ef38345fe892e81ceffcf641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_32
+      name: WTR_18_SectionsClean-3_32
       rect:
         serializedVersion: 2
-        x: 194
-        y: 219
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 609
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f907bb603ac4943ac89f37b7895bc920
+      spriteID: 39d4647eea97e4a74aad7916a4eec200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_33
+      name: WTR_18_SectionsClean-3_33
       rect:
         serializedVersion: 2
-        x: 387
-        y: 219
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 812
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 935d445df7598477ea5c1907274794e3
+      spriteID: 22a27d0c69d0b43388ca24b635e8631c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_34
+      name: WTR_18_SectionsClean-3_34
       rect:
         serializedVersion: 2
-        x: 580
-        y: 219
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1015
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb8661f50f83f47f9ac279401e455a07
+      spriteID: 6890ce3e51675434fbafcbaaaee119b1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_35
+      name: WTR_18_SectionsClean-3_35
       rect:
         serializedVersion: 2
-        x: 773
-        y: 219
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1218
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79505f77ee92449cfb68d406d48b26ce
+      spriteID: 8d7491f8c4d12409c905a9708f491b1c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WTR_18_SectionClean_36
+      name: WTR_18_SectionsClean-3_36
       rect:
         serializedVersion: 2
-        x: 966
-        y: 219
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 1421
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c44f0b9f3a44d2e8984bb1ed793be6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WTR_18_SectionClean_37
-      rect:
-        serializedVersion: 2
-        x: 1159
-        y: 219
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6875aacee144c4f19882347a2c357e0f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WTR_18_SectionClean_38
-      rect:
-        serializedVersion: 2
-        x: 1352
-        y: 219
-        width: 162
-        height: 431
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ded32727884144ada90587fbc73fa6fe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WTR_18_SectionClean_39
-      rect:
-        serializedVersion: 2
-        x: 1547
-        y: 228
-        width: 133
-        height: 421
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef6ebeb4527724004bf797bc64487eb3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WTR_18_SectionClean_40
-      rect:
-        serializedVersion: 2
-        x: 1741
-        y: 240
-        width: 135
-        height: 420
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d72a4fbfba4d44a5b401fdb0fc07cb0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WTR_18_SectionClean_41
-      rect:
-        serializedVersion: 2
-        x: 1909
-        y: 243
-        width: 135
-        height: 421
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62ec16cd915fc4430a2119e5df14e15d
+      spriteID: cab86dea4dea54ce581937ef6ee0ad34
       vertices: []
       indices: 
       edges: []
@@ -968,7 +863,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7eb6c16bdafeb49af8ae3e329ec8c033
+    spriteID: 3f50a20f3b4e74ea7871d65a7cf5d536
     vertices: []
     indices: 
     edges: []
