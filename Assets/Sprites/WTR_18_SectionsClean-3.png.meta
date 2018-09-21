@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: 23077852bb4ff418cb48d5d9c3075694
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WTR_18_SectionsClean-3_0
+    21300002: WTR_18_SectionsClean-3_1
+    21300004: WTR_18_SectionsClean-3_2
+    21300006: WTR_18_SectionsClean-3_3
+    21300008: WTR_18_SectionsClean-3_4
+    21300010: WTR_18_SectionsClean-3_5
+    21300012: WTR_18_SectionsClean-3_6
+    21300014: WTR_18_SectionsClean-3_7
+    21300016: WTR_18_SectionsClean-3_8
+    21300018: WTR_18_SectionsClean-3_9
+    21300020: WTR_18_SectionsClean-3_10
+    21300022: WTR_18_SectionsClean-3_11
+    21300024: WTR_18_SectionsClean-3_12
+    21300026: WTR_18_SectionsClean-3_13
+    21300028: WTR_18_SectionsClean-3_14
+    21300030: WTR_18_SectionsClean-3_15
+    21300032: WTR_18_SectionsClean-3_16
+    21300034: WTR_18_SectionsClean-3_17
+    21300036: WTR_18_SectionsClean-3_18
+    21300038: WTR_18_SectionsClean-3_19
+    21300040: WTR_18_SectionsClean-3_20
+    21300042: WTR_18_SectionsClean-3_21
+    21300044: WTR_18_SectionsClean-3_22
+    21300046: WTR_18_SectionsClean-3_23
+    21300048: WTR_18_SectionsClean-3_24
+    21300050: WTR_18_SectionsClean-3_25
+    21300052: WTR_18_SectionsClean-3_26
+    21300054: WTR_18_SectionsClean-3_27
+    21300056: WTR_18_SectionsClean-3_28
+    21300058: WTR_18_SectionsClean-3_29
+    21300060: WTR_18_SectionsClean-3_30
+    21300062: WTR_18_SectionsClean-3_31
+    21300064: WTR_18_SectionsClean-3_32
+    21300066: WTR_18_SectionsClean-3_33
+    21300068: WTR_18_SectionsClean-3_34
+    21300070: WTR_18_SectionsClean-3_35
+    21300072: WTR_18_SectionsClean-3_36
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ba0e239ac7e489393055eae3f62189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ac0ff7b22c4b1a85546ef2cfb2bd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2f42b6a69684848bff25a9f8cb1793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f704c4fa30c49628a9526b1ebcf2e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_4
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bfbbfd7a9c74f9888df6ae53601eff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_5
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548cbdfa1c6e5401585f1b210a6abd62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_6
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5060fa870ab9a4738aed6992152998d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_7
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0d40d03a0514a849d1e754188955a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_8
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124ea0d1efb6e46e0b2605d51359015e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_9
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1416
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05db0ea904a7f46b7a2a891905ad58ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842b02a6c3b1d4662a63377b596d6650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cccf45b48cfe4015b7fe72a46c9c295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d44be5bc8736441ebd5518e07756320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_13
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1535503d51992498cb055fb573f11eca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_14
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ad22e883c9246a0801a4d56be5df0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_15
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a213dcf9603cc466588fa1acf84ea2fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_16
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc077f373b9341e79bdf50b6289811e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_17
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bf5f5d43b26445ea6c5ab0ccc2c2e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_18
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf15fab77dd645c9863ef50c47981a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_19
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 944
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6874c3ef4ed8a4122ba7537eb1aa38fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56982ae9af3c44ebb821473f865c0363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b87fa1e1467481e8f7f8926134ea0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_22
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7cbaf6319b54d22bd937ff1d1c2904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_23
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0efa66ef305413f969d3d99a1f674e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_24
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f5e68a477b94bbf9e8a35367489e24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_25
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5132ea9cee74f9db9d59a0759d3c57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_26
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a057ea3c81d446e3b1439e90dc72987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_27
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6ea24a3d0104427a51fdf586d72739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_28
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 472
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df14d3c555d264a518db399c20d942e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23ab813f49474443b634d36c9028e5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ac5e7478fea44a7ad09e916c6fe819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_31
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c064c61a7ac54d6b828666cb390d8f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_32
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e56844d2793245a6aee95198a855684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_33
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592ce539badea49efab7cf22143bdbeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_34
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832cf720f4ee04eb7bc3fd111ece3f2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_35
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9a65625814e4517b7335aebd986f06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WTR_18_SectionsClean-3_36
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 0
+        width: 163
+        height: 432
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877bda36cedbc43b184ec671368dd03c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 807f21c8d212c4fb2a46f0f03d9c618d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
